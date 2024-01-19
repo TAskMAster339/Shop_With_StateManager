@@ -1,6 +1,6 @@
-### Simple shop with StateManager
+# Simple shop with StateManager
 
-# using React(without create-react-app), redux, redux-toolkit, chakra-ui, axios.
+### using React(without create-react-app), redux, redux-toolkit, chakra-ui, axios.
 
 
 install the dependencies:
