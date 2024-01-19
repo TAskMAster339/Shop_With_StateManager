@@ -3,6 +3,10 @@
 ### using React(without create-react-app), redux, redux-toolkit, chakra-ui, axios.
 
 
+
+
+
+
 install the dependencies:
 
 ### `npm install`
