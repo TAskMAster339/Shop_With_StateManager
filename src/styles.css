@@ -1,0 +1,33 @@
+.postsDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+#root {
+    background-color: rgb(233, 233, 233);
+}
+.shop {
+    position: fixed;
+    right: 0vw;
+    z-index: 100;
+    top: 0vh;   
+}
+.shopList{
+    font-weight: 500;
+}
+.money{
+    font-weight: 700;
+    font-size: 30px;
+    color: rgb(43,108,176);
+    position: fixed;
+    z-index: 100;
+    margin-left: 10px;
+    margin-top: 5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 10px;
+}
+.fullPrice{
+    font-weight: 600;
+}

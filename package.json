@@ -1,0 +1,54 @@
+{
+  "name": "webpack-5-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env SERVE=true webpack serve",
+    "build": "webpack",
+    "build-prod": "webpack --mode=production",
+    "clean": "rd /s /q dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aAleksandrOrlov/webpack-5-config.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "Webpack",
+    "Node"
+  ],
+  "author": "aleksandr <aleksandr.orlov.dev@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aAleksandrOrlov/webpack-5-config/issues"
+  },
+  "homepage": "https://github.com/aAleksandrOrlov/webpack-5-config#readme",
+  "devDependencies": {
+    "@babel/core": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "@babel/preset-react": "^7.16.5",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.3",
+    "babel-loader": "^8.2.3",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.5.1",
+    "html-loader": "^3.0.1",
+    "html-webpack-plugin": "^5.5.0",
+    "react-refresh": "^0.11.0",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.6.0"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@reduxjs/toolkit": "^2.0.1",
+    "axios": "^1.6.5",
+    "framer-motion": "^10.18.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^9.1.0",
+    "style-loader": "^3.3.4"
+  }
+}
